@@ -1,8 +1,10 @@
+# To-do App
+
 This is a to-do app. 
 Through this app, you can add your to-dos and delete them as well.
 If you have previously saved todos here, it will keep it them there till you delete it.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
