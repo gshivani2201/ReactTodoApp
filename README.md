@@ -4,7 +4,13 @@ This is a to-do app.
 Through this app, you can add your to-dos and delete them as well.
 If you have previously saved todos here, it will keep it them there till you delete it.
 
-## Getting Started with Create React App
+## Usage Instructions
+- Write the to-do title
+- Write to-do description
+
+
+
+<!-- ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -73,4 +79,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
