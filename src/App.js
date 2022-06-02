@@ -1,4 +1,3 @@
-import './App.css';
 import Header from "./Mycomponents/Header";
 import {Footer} from "./Mycomponents/Footer";
 import {Todos} from "./Mycomponents/Todos";
@@ -22,9 +21,6 @@ function App() {
 
   const onDelete = (todo) => {
     console.log("I am ondelete of todo", todo)
-    //Deleting this way in react does not work
-    // let index = todos.indexOf(todo);
-    // todos.splice(index, 1);
 
     setTodos(todos.filter((e) => {
       return e !== todo;
@@ -60,7 +56,7 @@ function App() {
   return (
     <>
     <Router>
-      <Header title="My Todos List" searchBar={true} />
+      <Header title="Shivani's todo" searchBar={true} />
       <Routes>
           <Route path="/" element={
             <>
