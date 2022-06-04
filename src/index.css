@@ -5,11 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-  overflow-y: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }

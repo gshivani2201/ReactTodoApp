@@ -1,8 +1,9 @@
 import Header from "./Mycomponents/Header";
+import { AddTodo } from './Mycomponents/AddTodo'
+import { Todos } from './Mycomponents/Todos'
 import {Footer} from "./Mycomponents/Footer";
-import {Todos} from "./Mycomponents/Todos";
-import {AddTodo} from "./Mycomponents/AddTodo";
 import {About} from "./Mycomponents/About";
+//import Section from "./Mycomponents/Section";
 
 import React, {useState, useEffect} from 'react';
 import {
@@ -60,8 +61,9 @@ function App() {
       <Routes>
           <Route path="/" element={
             <>
-            <AddTodo addTodo={addTodo} />
-            <Todos todos={todos} onDelete={onDelete} />
+              <AddTodo addTodo={addTodo} />
+              <Todos todos={todos} onDelete={onDelete} />
+              {/* <Section addTodo={addTodo} todos={todos} onDelete={onDelete}/> */}
             </>
           }> 
           </Route>
