@@ -3,7 +3,6 @@ import { AddTodo } from './Mycomponents/AddTodo'
 import { Todos } from './Mycomponents/Todos'
 import {Footer} from "./Mycomponents/Footer";
 import {About} from "./Mycomponents/About";
-//import Section from "./Mycomponents/Section";
 
 import React, {useState, useEffect} from 'react';
 import {
@@ -63,7 +62,6 @@ function App() {
             <>
               <AddTodo addTodo={addTodo} />
               <Todos todos={todos} onDelete={onDelete} />
-              {/* <Section addTodo={addTodo} todos={todos} onDelete={onDelete}/> */}
             </>
           }> 
           </Route>
